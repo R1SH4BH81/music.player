@@ -78,7 +78,7 @@ new Vue({
           artist: "Shrillex & Diplo",
           cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/9.jpg",
           source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/9.mp3",
-          url: "https://www.youtube.com/watch?v=L3wKzyIN1yk",
+          url: "https://youtu.be/EqCLSqwRevc",
           favorited: false
         }
       ],
