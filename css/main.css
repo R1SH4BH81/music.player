@@ -1,9 +1,7 @@
 body {
-  
-  background-image: url(https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/bg3.png);
+  background-image: url("https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/bg.png");
   font-family: "Bitter", serif;
 }
-
 
 * {
   box-sizing: border-box;
