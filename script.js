@@ -10,11 +10,11 @@ new Vue({
       isTimerPlaying: false,
       tracks: [
         {
-          name: "Mekanın Sahibi",
-          artist: "Norm Ender",
-          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/13.jpg",
-          source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/1.mp3",
-          url: "https://www.youtube.com/watch?v=z3wAjJXbYzA",
+          name: "Suicide Year",
+          artist: "Weedmane",
+          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/7.jpg",
+          source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/7.mp3",
+          url: "https://youtu.be/WHj7WPeooCo",
           favorited: false
         },
         {
