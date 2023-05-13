@@ -15,7 +15,7 @@ new Vue({
           cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/7.jpg",
           source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/7.mp3",
           url: "https://youtu.be/WHj7WPeooCo",
-          favorited: false
+          favorited: true
         },
         {
           name: "Burn Out",
@@ -47,7 +47,7 @@ new Vue({
           cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/5.jpg",
           source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/5.mp3",
           url: "https://youtu.be/e2vBLd5Egnk",
-          favorited: false
+          favorited: true
         },
         {
           name: "Rain Over Me",
@@ -63,7 +63,7 @@ new Vue({
           cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/13.jpg",
           source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/1.mp3",
           url: "https://www.youtube.com/watch?v=z3wAjJXbYzA",
-          favorited: false
+          favorited: true
         },
         {
           name: "Party Monster",
@@ -79,7 +79,7 @@ new Vue({
           cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/9.jpg",
           source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/9.mp3",
           url: "https://youtu.be/EqCLSqwRevc",
-          favorited: false
+          favorited: true
         }
       ],
       currentTrack: null,
