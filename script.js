@@ -20,7 +20,7 @@ new Vue({
         {
           name: "Burn Out",
           artist: "Martin Garrix",
-          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/bg.jpg",
+          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/11.jpg",
           source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/2.mp3",
           url: "https://youtu.be/DylzGXE_ibU",
           favorited: false
