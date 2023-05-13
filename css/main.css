@@ -1,7 +1,11 @@
 body {
-  background-image: url("https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/bg.png");
+  
+  background-image: url(https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/bg3.png);
   font-family: "Bitter", serif;
+  
+
 }
+
 
 * {
   box-sizing: border-box;
@@ -310,7 +314,7 @@ body {
   }
 }
 
-.flw-btn {
+.github-btn {
   position: absolute;
   right: 40px;
   bottom: 50px;
@@ -326,19 +330,19 @@ body {
   transition: all 0.3s ease-in-out;
 }
 @media screen and (min-width: 500px) {
-  .flw-btn:hover {
+  .github-btn:hover {
     transform: scale(1.1);
     box-shadow: 0px 17px 20px -6px rgba(36, 52, 70, 0.36);
   }
 }
 @media screen and (max-width: 700px) {
-  .flw-btn {
+  .github-btn {
     position: relative;
     bottom: auto;
     right: auto;
     margin-top: 20px;
   }
-  .flw-btn:active {
+  .github-btn:active {
     transform: scale(1.1);
     box-shadow: 0px 17px 20px -6px rgba(36, 52, 70, 0.36);
   }
