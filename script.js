@@ -10,16 +10,16 @@ new Vue({
       isTimerPlaying: false,
       tracks: [
         {
-          name: "Suicide Year",
-          artist: "Weedmane",
+          artist: "Suicide Year",
+          name: "Weedmane",
           cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/7.jpg",
           source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/7.mp3",
           url: "https://youtu.be/WHj7WPeooCo",
           favorited: false
         },
         {
-          name: "Circo Loco",
-          artist: "Drake",
+          artist: "Circo Loco",
+          name: "Drake",
           cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/14.jpg",
           source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/12.mp3",
           url: "https://youtu.be/jxILuhLm6hs",
@@ -28,8 +28,8 @@ new Vue({
         
         
         {
-          name: "Burn Out",
-          artist: "Martin Garrix",
+          artist: "Burn Out",
+          name: "Martin Garrix",
           cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/2.jpg",
           source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/2.mp3",
           url: "https://youtu.be/DylzGXE_ibU",
@@ -37,16 +37,16 @@ new Vue({
         },
        
         {
-          name: "Scared To Be Lonely",
-          artist: "Martin Garrix , Dua Lipa",
+          artist: "Scared To Be Lonely",
+          name: "Martin Garrix , Dua Lipa",
           cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/5.jpg",
           source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/5.mp3",
           url: "https://youtu.be/e2vBLd5Egnk",
           favorited: false
         },
         {
-          name: "Rain Over Me",
-          artist: "Pitbull , Marc Anthony",
+          artist: "Rain Over Me",
+          name: "Pitbull , Marc Anthony",
           cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/6.jpg",
           source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/6.mp3",
           url: "https://youtu.be/SmM0653YvXU",
@@ -54,72 +54,72 @@ new Vue({
         },
         
         {
-          name: " Unforgettable",
-          artist: "French Montana",
+           artist: " Unforgettable",
+          name: "French Montana",
           cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/1.jpg",
           source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/15.mp3",
           url: "https://youtu.be/CTFtOOh47oo",
           favorited: false
         },
         {
-          name: "Rich Flex",
-          artist: "Drake, 21 Savage ",
+           artist: "Rich Flex",
+          name: "Drake, 21 Savage ",
           cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/16.jpg",
           source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/13.mp3",
           url: "https://youtu.be/gOvNACDVXzI",
           favorited: false
         },
         {
-          name: "Mekanın Sahibi",
-          artist: "Norm Ender",
+           artist: "Mekanın Sahibi",
+          name: "Norm Ender",
           cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/13.jpg",
           source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/1.mp3",
           url: "https://www.youtube.com/watch?v=z3wAjJXbYzA",
           favorited: false
         },
         {
-          name: "Toosie Slide",
-          artist: "Drake",
+           artist: "Toosie Slide",
+          name: "Drake",
           cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/15.jpg",
           source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/14.mp3",
           url: "https://youtu.be/xWggTb45brM",
           favorited: false
         },
         {
-          name: "Under The Influence",
-          artist: "Chris Brown",
+           artist: "Under The Influence",
+          name: "Chris Brown",
           cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/17.jpg",
           source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/16.mp3",
           url: "https://youtu.be/LPnDCTqW7zw",
           favorited: false
         },
         {
-          name: "Goosebump",
-          artist: "Travis Scott , Kendrick Lamar",
+           artist: "Goosebump",
+          name: "Travis Scott , Kendrick Lamar",
           cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/12.jpg",
           source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/18.mp3",
           url: "https://youtu.be/Dst9gZkq1a8",
           favorited: false
         },
         {
-          name: "Animals",
-          artist: "Maroon 5",
+           artist: "Animals",
+          name: "Maroon 5",
           cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/7.jpg",
           source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/17.mp3",
           url: "https://youtu.be/qpgTC9MDx1o",
           favorited: false
         },
         {
-          name: "Party Monster",
-          artist: "Weeknd",
+           artist: "Party Monster",
+          name: "Weeknd",
           cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/8.jpg",
           source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/8.mp3",
           url: "https://youtu.be/diW6jXhLE0E",
           favorited: false
         },
         {
-          name: "To U",
-          artist: "Shrillex & Diplo",
+           artist: "To U",
+          name: "Shrillex & Diplo",
           cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/9.jpg",
           source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/9.mp3",
           url: "https://youtu.be/9NwZdxiLvGo",
@@ -127,16 +127,16 @@ new Vue({
         },
         
          {
-          name: "Right Night Feeling",
-          artist: "Atthar",
+           artist: "Right Night Feeling",
+          name: "Atthar",
           cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/3.jpg",
           source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/10.mp3",
           url: "https://youtu.be/P8uqtTOXoYE",
           favorited: false
         },
         {
-          name: "Blow your Mind",
-          artist: "Dua Lipa",
+           artist: "Blow your Mind",
+          name: "Dua Lipa",
           cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/4.jpg",
           source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/11.mp3",
           url: "https://youtu.be/1nydxbGhgv8",
