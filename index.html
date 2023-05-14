@@ -12,8 +12,14 @@
       rel="stylesheet"
       href="https://meyerweb.com/eric/tools/css/reset/reset.css"
     />
+    
     <link rel="stylesheet" href="./css/main.css" />
     <title>Music Player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-tT4ZQ7Rb/GJ00Jbs6FNguzrhWvl1hKzRvLQD1vzojeOIcESG9bxJU+Y1ht9n2vR9HdJ/6A8MBw7kC4mg9+hH5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <a href="#" title="Share this link"><i class="fa fa-share"></i></a>
+</body>
   </head>
   <body>
     <div class="wrapper" id="app">
@@ -66,12 +72,43 @@
           </div>
           <div class="progress__time">{{ currentTime }}</div>
         </div>
-        <div v-cloak></div>
+        <div>
+          <p id ="txt" style="font-size: 19px; text-align: right; color: #71829e; font-weight: bold-italic; ">
+            Data saver 
+            <label class="switch">
+              <input type="checkbox" id="toggle">
+              <span class="slider round"></span>
+            </label>
+            <span id="status">👎</span>
+          </p>
+          
+        </div>
+        
+        
+        
+       
+        
+        
+        <div v-cloak></div>        
       </div>
-      <a href="https://bit.ly/3p3fYyH" target="_blank" class="github-btn">
-        LinkedIn ↗️
-      </a>
+       
+        
+        
+          
+          
+        
+
+      </div>
+      
+      
     </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    
+    <footer><a href="https://bit.ly/3p3fYyH" target="_blank" class="github-btn">
+      LinkedIn ↗️
+    </a></footer>
+   
 
     <svg xmlns="http://www.w3.org/2000/svg" hidden xmlns:xlink="http://www.w3.org/1999/xlink">
       <defs>
@@ -121,9 +158,23 @@
           <path d="M29.696 13.696h-14.688l4.576-4.576c0.864-0.864 0.864-2.336 0-3.232-0.864-0.864-2.336-0.864-3.232 0l-8.448 8.48c-0.864 0.864-0.864 2.336 0 3.232l8.448 8.448c0.448 0.448 1.056 0.672 1.632 0.672s1.184-0.224 1.632-0.672c0.864-0.864 0.864-2.336 0-3.232l-4.608-4.576h14.688c1.248 0 2.304-1.024 2.304-2.304s-1.024-2.24-2.304-2.24z"></path>
           <path d="M2.304 5.248c-1.248 0-2.304 1.024-2.304 2.304v16.928c0 1.248 1.024 2.304 2.304 2.304s2.304-1.024 2.304-2.304v-16.928c-0.064-1.28-1.056-2.304-2.304-2.304z"></path>
         </symbol>
+        
+        
       </defs>
     </svg>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
     <script src="script.js"></script>
+    <script>
+      const toggle = document.getElementById('toggle');
+      const status = document.getElementById('status');
+
+      toggle.addEventListener('change', (event) => {
+        if (event.target.checked) {
+          status.innerText = '👍';
+        } else {
+          status.innerText = '👎';
+        }
+      });
+    </script>
   </body>
 </html>
