@@ -1,11 +1,68 @@
-body  {
-  background-image: url(https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/bg3.png);
-  font-family: "Bitter", serif;
+@media screen and (max-width: 768px) {
+  /* Styles for screens smaller than 768px */
 }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Styles for screens between 768px and 1024px */
+}
+
+@media screen and (min-width: 1024px) {
+  /* Styles for screens larger than 1024px */
+}
+
+body {
+  position: relative;
+  font-family: "Bitter", serif;
+  overflow: hidden;
+}
+
+body:before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+/* set different background images based on time of the day */
+@media (min-width: 768px) {
+  /* morning */
+  body:before {
+    background-image: url("https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/bg3.png");
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* afternoon */
+  body:before {
+    background-image: url("https://raw.githubusercontent.com/R1SH4BH81/music.player/master/nzxt-gif.gif");
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  /* evening */
+  body:before {
+    background-image: url("https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/nzxt-gif.gif");
+  }
+}
+
+@media (min-width: 1440px) {
+  /* night */
+  body:before {
+    background-image: url("https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/nzxt-gif.gif");
+  }
+}
+
 
 * {
   box-sizing: border-box;
 }
+
 
 .icon {
   display: inline-block;
