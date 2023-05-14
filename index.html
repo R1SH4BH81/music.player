@@ -79,7 +79,7 @@
               <input type="checkbox" id="toggle">
               <span class="slider round"></span>
             </label>
-            <span id="status">👎</span>
+            <span id="status">0️⃣</span>
           </p>
           
         </div>
@@ -87,7 +87,7 @@
         
         
        
-        
+         
         
         <div v-cloak></div>        
       </div>
@@ -170,9 +170,9 @@
 
       toggle.addEventListener('change', (event) => {
         if (event.target.checked) {
-          status.innerText = '👍';
+          status.innerText = '1️⃣ ';
         } else {
-          status.innerText = '👎';
+          status.innerText = '0️⃣';
         }
       });
     </script>
