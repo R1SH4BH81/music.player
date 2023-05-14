@@ -10,11 +10,11 @@ new Vue({
       isTimerPlaying: false,
       tracks: [
         {
-          artist: "Suicide Year",
-          name: "Weedmane",
+          artist: "Payphone",
+          name: "Maroon 5 , Wiz Khalifa",
           cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/7.jpg",
           source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/7.mp3",
-          url: "https://youtu.be/WHj7WPeooCo",
+          url: "https://youtu.be/KRaWnd3LJfs",
           favorited: false
         },
         {
