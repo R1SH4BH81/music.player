@@ -20,7 +20,7 @@ new Vue({
         {
           artist: "Con La Birsa",
           name: "Foudeqush , Ludwig Göransson",
-          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/9.jpg",
+          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/18.jpg",
           source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/22.mp3",
           url: "https://youtu.be/FSXcA0FPpbM",
           favorited: false
@@ -97,7 +97,7 @@ new Vue({
         {
            artist: "Toosie Slide",
           name: "Drake",
-          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/9.jpg",
+          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/19.jpg",
           source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/14.mp3",
           url: "https://youtu.be/xWggTb45brM",
           favorited: false
