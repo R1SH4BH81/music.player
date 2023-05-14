@@ -10,7 +10,15 @@ new Vue({
       isTimerPlaying: false,
       tracks: [
         {
-          artist: "Payphone",
+          artist: "In The Meantime",
+          name: "Spacehog",
+          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/3.jpg",
+          source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/20.mp3",
+          url: "https://youtu.be/PCsGRCf8T9Y",
+          favorited: false
+        },
+        {
+          artist: "Payphone",https://youtu.be/PCsGRCf8T9Y
           name: "Maroon 5 , Wiz Khalifa",
           cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/7.jpg",
           source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/7.mp3",
