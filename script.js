@@ -18,7 +18,7 @@ new Vue({
           favorited: false
         },
         {
-          artist: "Payphone",https://youtu.be/PCsGRCf8T9Y
+          artist: "Payphone",
           name: "Maroon 5 , Wiz Khalifa",
           cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/7.jpg",
           source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/7.mp3",
