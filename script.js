@@ -56,7 +56,7 @@ new Vue({
         {
           name: " Unforgettable",
           artist: "French Montana",
-          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/16.jpg",
+          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/6.jpg",
           source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/15.mp3",
           url: "https://youtu.be/CTFtOOh47oo",
           favorited: false
