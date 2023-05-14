@@ -43,7 +43,7 @@ new Vue({
           favorited: false
         },
         {
-          name: "Scared To Be Lonenly",
+          name: "Scared To Be Lonely",
           artist: "Martin Garrix , Dua Lipa",
           cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/5.jpg",
           source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/5.mp3",
