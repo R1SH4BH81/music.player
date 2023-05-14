@@ -1,4 +1,4 @@
-body {
+body , .text {
   background-image: url(https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/bg3.png);
   font-family: "Bitter", serif;
 }
@@ -182,7 +182,7 @@ body {
 }
 @media screen and (min-width: 500px) {
   .player-controls__item:hover {
-    color: #532ab9;
+    color: #4b1dbe;
   }
   .player-controls__item:hover::before {
     opacity: 1;
@@ -273,6 +273,13 @@ body {
   border-radius: 10px;
 }
 
+.txt{
+  font-weight: 400;
+  font-size: 20px;
+  opacity: 0.7;
+  line-height: 1.3em;
+  min-height: 52px;
+}
 .album-info {
   color: #71829e;
   flex: 1;
@@ -326,7 +333,7 @@ body {
   transition: all 0.3s ease-in-out;
 }
 @media screen and (min-width: 500px) {
-  .github-btn:hover {
+  .github-btn:hover  {
     transform: scale(1.1);
     box-shadow: 0px 17px 20px -6px rgba(36, 52, 70, 0.36);
   }
@@ -385,3 +392,127 @@ body {
 }
 
 /*# sourceMappingURL=main.css.map */
+.container {
+  height: 25em;
+  width: 25em;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+}
+input[type="checkbox"] {
+  appearance: none;
+  height: 9.37em;
+  width: 18.75em;
+  background-color: #3a3256;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  top: 6.25em;
+  border-radius: 4.68em;
+}
+input[type="checkbox"]:before {
+  position: absolute;
+  content: "";
+  height: 8.12em;
+  width: 8.12em;
+  background-color: #7d7890;
+  border-radius: 50%;
+  top: 0.62em;
+  left: 0.62em;
+  transition: 0.3s;
+}
+label[for="light"] {
+  height: 6.25em;
+  width: 0.62em;
+  background-color: #31353d;
+  position: absolute;
+  top: 11em;
+  left: 8em;
+  z-index: -1;
+  transition: 0.3s;
+}
+label[for="light"]:after {
+  position: absolute;
+  content: "";
+  height: 0;
+  width: 0.75em;
+  border-bottom: 1.56em solid #392692;
+  border-left: 0.62em solid transparent;
+  border-right: 0.62em solid transparent;
+  top: 5.93em;
+  left: -0.68em;
+}
+input[type="checkbox"],
+label[for="light"] {
+  cursor: pointer;
+}
+input[type="checkbox"]:checked:before {
+  background-color: #f5f5f5;
+  left: 10em;
+  box-shadow: 0 0 8.75em 1.87em rgba(196, 241, 255, 0.8);
+}
+input[type="checkbox"]:checked + label {
+  top: 12em;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  margin-right: 10px;
+}
+
+.switch input {
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+#status {
+  font-size: 24px;
+}
