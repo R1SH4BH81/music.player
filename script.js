@@ -15,12 +15,13 @@ new Vue({
           cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/7.jpg",
           source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/7.mp3",
           url: "https://youtu.be/WHj7WPeooCo",
-          favorited: true
+          favorited: false
         },
+        
         {
           name: "Burn Out",
           artist: "Martin Garrix",
-          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/11.jpg",
+          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/2.jpg",
           source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/2.mp3",
           url: "https://youtu.be/DylzGXE_ibU",
           favorited: false
@@ -47,7 +48,7 @@ new Vue({
           cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/5.jpg",
           source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/5.mp3",
           url: "https://youtu.be/e2vBLd5Egnk",
-          favorited: true
+          favorited: false
         },
         {
           name: "Rain Over Me",
@@ -57,13 +58,54 @@ new Vue({
           url: "https://youtu.be/SmM0653YvXU",
           favorited: false
         },
+        
+        {
+          name: " Unforgettable",
+          artist: "French Montana",
+          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/16.jpg",
+          source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/15.mp3",
+          url: "https://youtu.be/CTFtOOh47oo",
+          favorited: false
+        },
         {
           name: "Mekanın Sahibi",
           artist: "Norm Ender",
           cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/13.jpg",
           source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/1.mp3",
           url: "https://www.youtube.com/watch?v=z3wAjJXbYzA",
-          favorited: true
+          favorited: false
+        },
+        {
+          name: "Toosie Slide",
+          artist: "Drake",
+          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/15.jpg",
+          source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/14.mp3",
+          url: "https://youtu.be/xWggTb45brM",
+          favorited: false
+        },
+        {
+          name: "Under The Influence",
+          artist: "Chris Brown",
+          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/17.jpg",
+          source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/16.mp3",
+          url: "https://youtu.be/LPnDCTqW7zw",
+          favorited: false
+        },
+        {
+          name: "Goosebump",
+          artist: "Travis Scott , Kendrick Lamar",
+          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/12.jpg",
+          source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/18.mp3",
+          url: "https://youtu.be/Dst9gZkq1a8",
+          favorited: false
+        },
+        {
+          name: "Animals",
+          artist: "Maroon 5",
+          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/7.jpg",
+          source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/17.mp3",
+          url: "https://youtu.be/qpgTC9MDx1o",
+          favorited: false
         },
         {
           name: "Party Monster",
@@ -78,8 +120,24 @@ new Vue({
           artist: "Shrillex & Diplo",
           cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/9.jpg",
           source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/9.mp3",
-          url: "https://youtu.be/EqCLSqwRevc",
-          favorited: true
+          url: "https://youtu.be/9NwZdxiLvGo",
+          favorited: false
+        },
+        {
+          name: "Circo Loco",
+          artist: "Drake",
+          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/14.jpg",
+          source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/12.mp3",
+          url: "https://youtu.be/jxILuhLm6hs",
+          favorited: false
+        },
+        {
+          name: "Rich Flex",
+          artist: "Drake, 21 Savage ",
+          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/16.jpg",
+          source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/13.mp3",
+          url: "https://youtu.be/gOvNACDVXzI",
+          favorited: false
         }
       ],
       currentTrack: null,
@@ -209,3 +267,4 @@ new Vue({
     }
   }
 });
+
