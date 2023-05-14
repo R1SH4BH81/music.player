@@ -12,7 +12,7 @@ new Vue({
         {
           artist: "In The Meantime",
           name: "Spacehog",
-          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/3.jpg",
+          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/9.jpg",
           source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/20.mp3",
           url: "https://youtu.be/PCsGRCf8T9Y",
           favorited: false
