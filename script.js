@@ -17,6 +17,15 @@ new Vue({
           url: "https://youtu.be/WHj7WPeooCo",
           favorited: false
         },
+        {
+          name: "Circo Loco",
+          artist: "Drake",
+          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/14.jpg",
+          source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/12.mp3",
+          url: "https://youtu.be/jxILuhLm6hs",
+          favorited: false
+        },
+        
         
         {
           name: "Burn Out",
@@ -26,22 +35,7 @@ new Vue({
           url: "https://youtu.be/DylzGXE_ibU",
           favorited: false
         },
-        {
-          name: "Right Night Feeling",
-          artist: "Atthar",
-          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/3.jpg",
-          source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/10.mp3",
-          url: "https://youtu.be/P8uqtTOXoYE",
-          favorited: false
-        },
-        {
-          name: "Blow your Mind",
-          artist: "Dua Lipa",
-          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/4.jpg",
-          source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/11.mp3",
-          url: "https://youtu.be/1nydxbGhgv8",
-          favorited: false
-        },
+       
         {
           name: "Scared To Be Lonely",
           artist: "Martin Garrix , Dua Lipa",
@@ -65,6 +59,14 @@ new Vue({
           cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/16.jpg",
           source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/15.mp3",
           url: "https://youtu.be/CTFtOOh47oo",
+          favorited: false
+        },
+        {
+          name: "Rich Flex",
+          artist: "Drake, 21 Savage ",
+          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/16.jpg",
+          source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/13.mp3",
+          url: "https://youtu.be/gOvNACDVXzI",
           favorited: false
         },
         {
@@ -123,22 +125,23 @@ new Vue({
           url: "https://youtu.be/9NwZdxiLvGo",
           favorited: false
         },
-        {
-          name: "Circo Loco",
-          artist: "Drake",
-          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/14.jpg",
-          source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/12.mp3",
-          url: "https://youtu.be/jxILuhLm6hs",
+        
+         {
+          name: "Right Night Feeling",
+          artist: "Atthar",
+          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/3.jpg",
+          source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/10.mp3",
+          url: "https://youtu.be/P8uqtTOXoYE",
           favorited: false
         },
         {
-          name: "Rich Flex",
-          artist: "Drake, 21 Savage ",
-          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/16.jpg",
-          source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/13.mp3",
-          url: "https://youtu.be/gOvNACDVXzI",
+          name: "Blow your Mind",
+          artist: "Dua Lipa",
+          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/4.jpg",
+          source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/11.mp3",
+          url: "https://youtu.be/1nydxbGhgv8",
           favorited: false
-        }
+        },
       ],
       currentTrack: null,
       currentTrackIndex: 0,
