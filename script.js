@@ -17,6 +17,7 @@ new Vue({
           url: "https://youtu.be/KRaWnd3LJfs",
           favorited: false
         },
+        
         {
           artist: "Circo Loco",
           name: "Drake",
@@ -91,6 +92,14 @@ new Vue({
           cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/17.jpg",
           source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/16.mp3",
           url: "https://youtu.be/LPnDCTqW7zw",
+          favorited: false
+        },
+        {
+          artist: "Echo",
+          name: "Maroon 5 ",
+          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/15.jpg",
+          source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/21.mp3",
+          url: "https://youtu.be/cOwlU2W3WiM",
           favorited: false
         },
         {
