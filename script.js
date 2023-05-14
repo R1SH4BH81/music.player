@@ -18,9 +18,17 @@ new Vue({
           favorited: false
         },
         {
+          artist: "Con La Birsa",
+          name: "Foudeqush , Ludwig Göransson",
+          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/9.jpg",
+          source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/22.mp3",
+          url: "https://youtu.be/FSXcA0FPpbM",
+          favorited: false
+        },
+        {
           artist: "Payphone",
           name: "Maroon 5 , Wiz Khalifa",
-          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/7.jpg",
+          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/1.jpg",
           source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/7.mp3",
           url: "https://youtu.be/KRaWnd3LJfs",
           favorited: false
@@ -29,7 +37,7 @@ new Vue({
         {
           artist: "Circo Loco",
           name: "Drake",
-          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/14.jpg",
+          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/2.jpg",
           source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/12.mp3",
           url: "https://youtu.be/jxILuhLm6hs",
           favorited: false
@@ -39,7 +47,7 @@ new Vue({
         {
           artist: "Burn Out",
           name: "Martin Garrix",
-          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/2.jpg",
+          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/3.jpg",
           source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/2.mp3",
           url: "https://youtu.be/DylzGXE_ibU",
           favorited: false
@@ -48,7 +56,7 @@ new Vue({
         {
           artist: "Scared To Be Lonely",
           name: "Martin Garrix , Dua Lipa",
-          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/5.jpg",
+          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/4.jpg",
           source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/5.mp3",
           url: "https://youtu.be/e2vBLd5Egnk",
           favorited: false
@@ -56,7 +64,7 @@ new Vue({
         {
           artist: "Rain Over Me",
           name: "Pitbull , Marc Anthony",
-          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/6.jpg",
+          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/5.jpg",
           source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/6.mp3",
           url: "https://youtu.be/SmM0653YvXU",
           favorited: false
@@ -65,7 +73,7 @@ new Vue({
         {
            artist: " Unforgettable",
           name: "French Montana",
-          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/1.jpg",
+          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/6.jpg",
           source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/15.mp3",
           url: "https://youtu.be/CTFtOOh47oo",
           favorited: false
@@ -73,7 +81,7 @@ new Vue({
         {
            artist: "Rich Flex",
           name: "Drake, 21 Savage ",
-          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/16.jpg",
+          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/7.jpg",
           source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/13.mp3",
           url: "https://youtu.be/gOvNACDVXzI",
           favorited: false
@@ -81,7 +89,7 @@ new Vue({
         {
            artist: "Mekanın Sahibi",
           name: "Norm Ender",
-          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/13.jpg",
+          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/8.jpg",
           source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/1.mp3",
           url: "https://www.youtube.com/watch?v=z3wAjJXbYzA",
           favorited: false
@@ -89,7 +97,7 @@ new Vue({
         {
            artist: "Toosie Slide",
           name: "Drake",
-          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/15.jpg",
+          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/9.jpg",
           source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/14.mp3",
           url: "https://youtu.be/xWggTb45brM",
           favorited: false
@@ -97,7 +105,7 @@ new Vue({
         {
            artist: "Under The Influence",
           name: "Chris Brown",
-          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/17.jpg",
+          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/10.jpg",
           source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/16.mp3",
           url: "https://youtu.be/LPnDCTqW7zw",
           favorited: false
@@ -105,7 +113,7 @@ new Vue({
         {
           artist: "Echo",
           name: "Maroon 5 ",
-          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/15.jpg",
+          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/11.jpg",
           source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/21.mp3",
           url: "https://youtu.be/cOwlU2W3WiM",
           favorited: false
@@ -121,7 +129,7 @@ new Vue({
         {
            artist: "Animals",
           name: "Maroon 5",
-          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/7.jpg",
+          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/13.jpg",
           source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/17.mp3",
           url: "https://youtu.be/qpgTC9MDx1o",
           favorited: false
@@ -129,15 +137,15 @@ new Vue({
         {
            artist: "Party Monster",
           name: "Weeknd",
-          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/8.jpg",
+          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/14.jpg",
           source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/8.mp3",
           url: "https://youtu.be/diW6jXhLE0E",
           favorited: false
         },
         {
-           artist: "To U",
+           artist: "To Ü",
           name: "Shrillex & Diplo",
-          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/9.jpg",
+          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/15.jpg",
           source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/9.mp3",
           url: "https://youtu.be/9NwZdxiLvGo",
           favorited: false
@@ -146,7 +154,7 @@ new Vue({
          {
            artist: "Right Night Feeling",
           name: "Atthar",
-          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/3.jpg",
+          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/16.jpg",
           source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/10.mp3",
           url: "https://youtu.be/P8uqtTOXoYE",
           favorited: false
@@ -154,7 +162,7 @@ new Vue({
         {
            artist: "Blow your Mind",
           name: "Dua Lipa",
-          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/4.jpg",
+          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/17.jpg",
           source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/11.mp3",
           url: "https://youtu.be/1nydxbGhgv8",
           favorited: false
