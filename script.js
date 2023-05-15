@@ -51,6 +51,22 @@ new Vue({
           favorited: false
         },
         {
+        artist: "OnlyFans",
+       name: "PRAYER , Yung Trench",
+       cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/9.jpg",
+       source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/24.mp3",
+       url: "https://youtu.be/rvkJjKll-zE",
+       favorited: false
+       },
+        {
+          artist: "Harleys In Hawai",
+          name: "katy Perry",
+          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/8.jpg",
+          source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/31.mp3",
+          url: "https://youtu.be/sQEgklEwhSo",
+          favorited: false
+        },
+        {
           artist: "Con La Birsa",
           name: "Foudeqush , Ludwig Göransson",
           cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/18.jpg",
@@ -232,14 +248,7 @@ new Vue({
          url: "https://youtu.be/A9hcJgtnm6Q",
          favorited: false
        },
-       {
-        artist: "OnlyFans",
-       name: "PRAYER , Yung Trench",
-       cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/9.jpg",
-       source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/24.mp3",
-       url: "https://youtu.be/rvkJjKll-zE",
-       favorited: false
-     },
+       
       ],
       currentTrack: null,
       currentTrackIndex: 0,
