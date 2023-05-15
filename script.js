@@ -177,7 +177,7 @@ new Vue({
       },
       {
         artist: "Plane Jane",
-       name: "A$AP Ferg",
+       name: "A$AP Ferg , Nicki Minaj",
        cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/19.jpg",
        source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/27.mp3",
        url: "https://youtu.be/XDMGmtpvBjs",
