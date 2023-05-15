@@ -9,6 +9,26 @@
 @media screen and (min-width: 1024px) {
   /* Styles for screens larger than 1024px */
 }
+html {
+  touch-action: manipulation;
+}
+
+body {
+  touch-action: manipulation;
+  -ms-content-zooming: none;
+  -ms-touch-action: manipulation;
+  zoom: reset;
+  max-height: 100vh;
+  max-width: 100vw;
+  overflow: hidden;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  body {
+    -ms-content-zooming: none;
+    -ms-touch-action: manipulation;
+  }
+}
 
 body {
   background: url("https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/nzxt-gif.gif") center/200% no-repeat;
