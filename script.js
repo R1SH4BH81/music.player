@@ -168,6 +168,14 @@ new Vue({
           favorited: false
         },
         {
+          artist: "Nothing Breaks like a Heart",
+         name: "Mark Ronson, Miley Cyrus",
+         cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/8.jpg",
+         source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/23.mp3",
+         url: "https://youtu.be/A9hcJgtnm6Q",
+         favorited: false
+       },
+        {
            artist: "Goosebump",
           name: "Travis Scott , Kendrick Lamar",
           cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/12.jpg",
@@ -240,14 +248,7 @@ new Vue({
           url: "https://youtu.be/1nydxbGhgv8",
           favorited: false
         },
-        {
-          artist: "Nothing Breaks like a Heart",
-         name: "Mark Ronson, Miley Cyrus",
-         cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/8.jpg",
-         source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/23.mp3",
-         url: "https://youtu.be/A9hcJgtnm6Q",
-         favorited: false
-       },
+        
        
       ],
       currentTrack: null,
