@@ -9,14 +9,7 @@ new Vue({
       currentTime: null,
       isTimerPlaying: false,
       tracks: [
-        {
-          artist: "On Our way",
-          name: "The Royal Concept",
-          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/7.jpg",
-          source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/29.mp3",
-          url: "https://youtu.be/nWyhUoxAbYI",
-          favorited: false
-        },
+        
         {
           artist: "In The Meantime",
           name: "Spacehog",
@@ -31,6 +24,14 @@ new Vue({
           cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/11.jpg",
           source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/28.mp3",
           url: "https://youtu.be/5tXh_MfrMe0",
+          favorited: false
+        },
+        {
+          artist: "On Our way",
+          name: "The Royal Concept",
+          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/7.jpg",
+          source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/29.mp3",
+          url: "https://youtu.be/nWyhUoxAbYI",
           favorited: false
         },
         {
