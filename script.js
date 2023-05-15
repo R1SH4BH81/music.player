@@ -143,6 +143,14 @@ new Vue({
           favorited: false
         },
         {
+          artist: "Gimme More",
+         name: "Britney Spears",
+         cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/11.jpg",
+         source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/26.mp3",
+         url: "https://youtu.be/elueA2rofoo",
+         favorited: false
+       },
+        {
            artist: "To Ü",
           name: "Shrillex & Diplo",
           cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/15.jpg",
@@ -160,6 +168,22 @@ new Vue({
           favorited: false
         },
         {
+        artist: "One Last Time",
+       name: "Daft Punk",
+       cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/10.jpg",
+       source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/25.mp3",
+       url: "https://youtu.be/FGBhQbmPwH8",
+       favorited: false
+      },
+      {
+        artist: "Plane Jane",
+       name: "A$AP Ferg",
+       cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/19.jpg",
+       source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/27.mp3",
+       url: "https://youtu.be/XDMGmtpvBjs",
+       favorited: false
+      },
+        {
            artist: "Blow your Mind",
           name: "Dua Lipa",
           cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/17.jpg",
@@ -167,6 +191,22 @@ new Vue({
           url: "https://youtu.be/1nydxbGhgv8",
           favorited: false
         },
+        {
+          artist: "Nothing Breaks like a Heart",
+         name: "Mark Ronson, Miley Cyrus",
+         cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/8.jpg",
+         source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/23.mp3",
+         url: "https://youtu.be/A9hcJgtnm6Q",
+         favorited: false
+       },
+       {
+        artist: "OnlyFans",
+       name: "PRAYER , Yung Trench",
+       cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/9.jpg",
+       source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/24.mp3",
+       url: "https://youtu.be/rvkJjKll-zE",
+       favorited: false
+     },
       ],
       currentTrack: null,
       currentTrackIndex: 0,
