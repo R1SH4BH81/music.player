@@ -11,10 +11,38 @@
 }
 
 body {
+  background: url("https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/nzxt-gif.gif") center/cover no-repeat;
+    /* Set other background properties */
+    background-color: #000;
+    background-attachment: fixed;
   position: relative;
   font-family: "Bitter", serif;
   overflow: hidden;
-  background-image: url("https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/bg3.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+ /* Set the secondary background image */
+ .backup-bg {
+  background-image: url("https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/backup-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #000;
+  background-attachment: fixed;
+}
+body:before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 
@@ -31,6 +59,44 @@ body {
   stroke-width: 0;
   stroke: currentColor;
   fill: currentColor;
+}
+.small-input {
+  width: 250px;
+  height: 20px;
+  text-align: center;
+}
+.separator {
+  border-bottom: 3px grey;
+  width: 100%;
+  margin: 20px 0;
+  border-radius: 5px;
+}
+.sint {
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+}
+button {
+  background-color: #7289DA;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  background-color: #677bc4;
+}
+
+.sint:focus {
+  outline: none;
+  border-color: #6fbfff;
+  box-shadow: 0 0 8px #6fbfff;
 }
 
 .wrapper {
