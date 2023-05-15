@@ -43,6 +43,14 @@ new Vue({
           favorited: false
         },
         {
+          artist: "I Took A Pill In Ibiza (Seeb Remix)",
+          name: "Mike Ponser",
+          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/14.jpg",
+          source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/31.mp3",
+          url: "https://youtu.be/foE1mO2yM04",
+          favorited: false
+        },
+        {
           artist: "Con La Birsa",
           name: "Foudeqush , Ludwig Göransson",
           cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/18.jpg",
