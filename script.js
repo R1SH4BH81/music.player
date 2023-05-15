@@ -62,7 +62,7 @@ new Vue({
           artist: "Harleys In Hawai",
           name: "katy Perry",
           cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/8.jpg",
-          source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/31.mp3",
+          source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/32.mp3",
           url: "https://youtu.be/sQEgklEwhSo",
           favorited: false
         },
