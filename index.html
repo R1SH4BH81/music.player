@@ -19,12 +19,16 @@
 </head>
 <body>
   <a href="#" title="Share this link"><i class="fa fa-share"></i></a>
+ 
 </body>
   </head>
-  <body>
+  <body onerror="this.classList.add('backup-bg')">
+    
     <div class="wrapper" id="app">
       <div class="player">
+        
         <div class="player__top">
+          
           <div class="player-cover">
             <transition-group :name="transitionName">
                 <div class="player-cover__item" v-if="$index === currentTrackIndex" :style="{ backgroundImage: `url(${track.cover})` }"  v-for="(track, $index) in tracks" :key="$index"></div>
@@ -62,8 +66,9 @@
         <div class="progress" ref="progress">
           <div class="progress__top">
             <div class="album-info" v-if="currentTrack">
+              
               <div class="album-info__name">{{ currentTrack.artist }}</div>
-              <div class="album-info__track">{{ currentTrack.name }}</div>
+              <div class="album-info__track">{{ currentTrack.name }} </div>
             </div>
             <div class="progress__duration">{{ duration }}</div>
           </div>
@@ -74,8 +79,23 @@
         </div>
         
         
-        <div>
-          <p id ="txt" style="font-size: 19px; text-align: right; color: #71829e; font-weight: bold-italic;user-select: none; ">
+        <div style="text-align: right;">
+          <label for="sleep-time" class="album-info__track">🕒</label>
+  <select id="sleep-time" class="sint" title="set sleep timer">
+    
+    <option value="5">5 mins</option>
+    <option value="10">10 mins</option>
+    <option value="15">15 mins</option>
+    <option value="30">30 mins</option>
+    <option value="45">45 mins</option>
+    <option value="60">60 mins</option>
+  </select>
+  <button onclick="setSleepTime()" title="Click to set sleep timer">✅</button>
+  
+
+
+  <div class="separator"></div>
+          <p id ="txt" style="font-size: 19px; text-align: center; color: #71829e; font-weight: bold-italic;user-select: none; ">
             Data saver 
             <label class="switch">
               <input type="checkbox" id="toggle">
@@ -84,12 +104,16 @@
             <span id="status">🙂</span>
             
             
-          </p><p><a href="https://bit.ly/3p3fYyH" style="text-decoration:none; background-color:black; color:white; padding:5px; border-radius: 10%;">↗️</a>
+            
+  </div>
+          </p> <a href="https://bit.ly/3p3fYyH" style="text-decoration:none; background-color:black; color:white; padding:1px; border-radius: 5%;">↗️</a>
+          <p>
+            
+            
+          </div>
+         
           </p>
           
-          
-          
-        </div>
         
         
         
@@ -98,9 +122,10 @@
         
         <div v-cloak></div>        
       </div>
-       
+       <!-- volume here-->
         
         
+     
           
           
         
