@@ -77,9 +77,10 @@ body:before {
   border-radius: 5px;
   font-size: 16px;
   text-align: center;
+  background-color: #eef3f7;
 }
 button {
-  background-color: #eef3f7;;
+  background-color: #eef3f7;
   color: #fff;
   border: none;
   border-radius: 5px;
