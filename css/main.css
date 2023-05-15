@@ -379,7 +379,7 @@ button:hover {
 .progress__current {
   height: inherit;
   width: 0%;
-  background-color: lightgoldenrodyellow;
+  background-color: lightgray;
   border-radius: 10px;
 }
 
