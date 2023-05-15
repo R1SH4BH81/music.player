@@ -106,7 +106,7 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 175vh;
+  min-height: 155vh;
   background-size: cover;
 }
 @media screen and (max-width: 700px), (max-height: 500px) {
