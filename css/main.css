@@ -103,7 +103,7 @@ body:before {
 }
 .sint {
   padding: 10px;
-  border: 2px solid #ccc;
+  border: 2px solid black;
   border-radius: 5px;
   font-size: 16px;
   text-align: center;
