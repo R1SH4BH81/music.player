@@ -296,3 +296,23 @@ new Vue({
   }
 });
 
+async function setSleepTime() {
+  var audio = new Audio("https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/Notification.mp3");
+  audio.volume = 0.5;
+  var playPromise = audio.play();
+  if (playPromise !== undefined) {
+    await playPromise;
+  }
+  var sleepTimeSelect = document.getElementById("sleep-time");
+  var selectedValue = sleepTimeSelect.value;
+  // Use selectedValue to set the sleep timer
+
+  // Stop the song after the selected sleep time
+  setTimeout(function() {
+    location.reload();
+    console.log("Song stopped after " + selectedValue + " mins");
+  }, selectedValue * 60 * 1000); // Convert selectedValue from minutes to milliseconds
+
+  alert("A Sleep timer has been set for " + selectedValue + " minutes");
+}
+
