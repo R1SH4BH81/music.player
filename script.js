@@ -34,6 +34,14 @@ new Vue({
           url: "https://youtu.be/nWyhUoxAbYI",
           favorited: false
         },
+         {
+          artist: "Play Hard",
+          name: "David Guetta , Ne-Yo , Akon",
+          cover: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/img/19.jpg",
+          source: "https://raw.githubusercontent.com/R1SH4BH81/music.player/master/mp3/30.mp3",
+          url: "https://youtu.be/5dbEhBKGOtY",
+          favorited: false
+        },
         {
           artist: "Con La Birsa",
           name: "Foudeqush , Ludwig Göransson",
