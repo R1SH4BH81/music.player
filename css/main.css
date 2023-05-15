@@ -125,7 +125,7 @@ button:hover {
   }
 }
 .progress__current {
-  background-color: white;
+  background-color: #eef3f7;
   animation: glowing 9s linear infinite;
 }
 
