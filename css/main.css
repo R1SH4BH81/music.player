@@ -68,12 +68,12 @@ body:before {
 .glow-effect {
   display: inline-block;
   padding: 10px;
-  background-color: lightgray;
+  background-color:#eef3f7 ;
   transition: box-shadow 0.3s ease-in-out;
 }
 
 .glow-effect:hover {
-  box-shadow: 0 0 10px 5px rgba(175, 129, 255, 0.8);
+  box-shadow: 0 0 10px 5px rgba(128, 70, 228, 0.8);
 }
 
 
