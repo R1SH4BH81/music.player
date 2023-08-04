@@ -1,6 +1,6 @@
 # Music Player
 
-This is a simple music player created with HTML, CSS, and JavaScript and some use of JSON .
+This is a simple music player created with HTML, CSS, and JavaScript and some use of JSON(i guess!) .
 
 ## Features
 
